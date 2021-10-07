@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: app-environment
+  name: system-environment
   namespace: kube-system
 data:
   environment.target: "development"
   environment.consul_host: "consul-server.kube-system.svc.cluster.local"
-  environment.consul_port: 8500
+  environment.consul_port: "8500"

@@ -7,3 +7,4 @@ data:
   environment.target: "development"
   environment.consul_host: "consul-server.kube-system.svc.cluster.local"
   environment.consul_port: "8500"
+  environment.cluster_namespace: kube-system

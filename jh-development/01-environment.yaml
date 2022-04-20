@@ -4,6 +4,6 @@ metadata:
   name: system-environment
   namespace: kube-system
 data:
-  environment.target: "jj-development"
+  environment.target: "jh-development"
   environment.consul_host: "consul-server.kube-system.svc.cluster.local"
   environment.consul_port: "8500"

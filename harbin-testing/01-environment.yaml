@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: system-environment
+  namespace: kube-system
+data:
+  environment.target: "harbin-testing"
+  environment.consul_host: "consul-server.kube-system.svc.cluster.local"
+  environment.consul_port: "8500"
